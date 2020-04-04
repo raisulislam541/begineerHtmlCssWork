@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  padding: 20px;
+}
+
+#register {
+  margin-left: 50px;
+}
+
+.register {
+  background-color: lightsteelblue;
+  margin: 0 0 0 432px;
+  width: 35%;
+  color: black;
+  font-size: 18px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+label {
+  color: currentColor;
+  font-family: "Roboto", "Lucida Grande", Verdana, Arial, sans-serif;
+  font-size: 18px;
+  font-style: italic;
+}
+
+#name {
+  width: 300px;
+  border-radius: 3px;
+  outline: 0;
+  padding: 7px;
+  border: 1px;
+}
+
+#ph {
+  width: 65px;
+  border-radius: 3px;
+  outline: 0;
+  padding: 7px;
+  border: None;
+}
+
+#num {
+  width: 230px;
+  padding: 7px;
+  border-radius: 3px;
+  border: None;
+  outline: 0;
+}
+
+#sub {
+  width: 200px;
+  padding: 10px;
+  border-radius: 3px;
+  border: None;
+  font-size: 18px;
+  font-family: "Roboto", "Lucida Grande", Verdana, Arial, sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  margin-left:80px;
+  outline:0;
+}
