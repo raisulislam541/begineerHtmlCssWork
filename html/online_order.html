@@ -6,7 +6,7 @@
     <title>DD Chicken - Online Order</title>
     <script src="https://code.jquery.com/jquery-2.2.4.js" charset="utf-8"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/notify/0.4.2/notify.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="../../static/dd_chicken/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/online-order.css">
     <meta name="robots" content="noindex,follow"/>
     <script>
         (function (d, s, id) {
@@ -26,7 +26,7 @@
 <div>
     <!-- Menu -->
     <div class="menu">
-        <img src="../../static/dd_chicken/icons/rsz_chciken.jpg" class="menu-img">
+        <img src="../rsz_chciken.jpg" class="menu-img">
     </div>
     <div id="results" class="shopping-cart">
         <input id="filter" type="search" class="searchTerm" placeholder="Search for products...">
@@ -34,27 +34,25 @@
 
             {% for item in products %}
             <div class="item " id="item-div_{{ item['id'] }}">
-                {% if item['1054'] %}
-                    <img data-enlargable width="100" style="cursor: zoom-in" class="item-image" src="{{ item['1054'] }}" alt="img"/>
-                {% else %}
-                    <img data-enlargable width="100" style="cursor: zoom-in" class="item-image" src="../../static/dd_chicken/icons/rsz_1rsz_chciken.jpg" alt="img"/>
+                {% if item['image'] %}
+                    <img data-enlargable width="100" style="cursor: zoom-in" class="item-image" src="{{ item['image'] }}" alt="img"/>
                 {% endif %}
                 <div class="description-container">
                     <div class="description">
-                        <span>{{ item['1051'] }}</span>
+                        <span>{{ item['product_name'] }}</span>
                     </div>
                     <div class="price-cotainer">
-                        <div class="total-price">{{ item['1053'] }} MMK</div>
+                        <div class="total-price">{{ item['price'] }} BDT</div>
                         <div class="quantity">
-                            <button class="plus-btn" id="plus-btn_{{ item['id'] }}_{{ item['1053'] }}" type="button"
+                            <button class="plus-btn" id="plus-btn_{{ item['id'] }}_{{ item['price'] }}" type="button"
                                     name="button">
-                                <img src="../../static/dd_chicken/icons/plus.svg" alt=""/>
+                                <img src="../plus.svg" alt=""/>
                             </button>
                             <input type="text" name="name" value="0" readonly>
-                            <button class="minus-btn" id="minus-btn_{{ item['id'] }}_{{ item['1053'] }}"
+                            <button class="minus-btn" id="minus-btn_{{ item['id'] }}_{{ item['price'] }}"
                                     type="button"
                                     name="button">
-                                <img src="../../static/dd_chicken/icons/minus.svg" alt=""/>
+                                <img src="../minus.svg" alt=""/>
                             </button>
                         </div>
                     </div>
