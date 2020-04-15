@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DD Chicken - Online Order</title>
+    <script src="https://code.jquery.com/jquery-2.2.4.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/notify/0.4.2/notify.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../static/dd_chicken/main.css">
+    <meta name="robots" content="noindex,follow"/>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {
+                return;
+            }
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://connect.facebook.net/en_US/messenger.Extensions.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'Messenger'));
+
+    </script>
+</head>
+<body>
+<div>
+    <!-- Menu -->
+    <div class="menu">
+        <img src="../../static/dd_chicken/icons/rsz_chciken.jpg" class="menu-img">
+    </div>
+    <div id="results" class="shopping-cart">
+        <input id="filter" type="search" class="searchTerm" placeholder="Search for products...">
+        <input type="hidden" id="cid" value="{{ customer_id }}">
+
+            {% for item in products %}
+            <div class="item " id="item-div_{{ item['id'] }}">
+                {% if item['1054'] %}
+                    <img data-enlargable width="100" style="cursor: zoom-in" class="item-image" src="{{ item['1054'] }}" alt="img"/>
+                {% else %}
+                    <img data-enlargable width="100" style="cursor: zoom-in" class="item-image" src="../../static/dd_chicken/icons/rsz_1rsz_chciken.jpg" alt="img"/>
+                {% endif %}
+                <div class="description-container">
+                    <div class="description">
+                        <span>{{ item['1051'] }}</span>
+                    </div>
+                    <div class="price-cotainer">
+                        <div class="total-price">{{ item['1053'] }} MMK</div>
+                        <div class="quantity">
+                            <button class="plus-btn" id="plus-btn_{{ item['id'] }}_{{ item['1053'] }}" type="button"
+                                    name="button">
+                                <img src="../../static/dd_chicken/icons/plus.svg" alt=""/>
+                            </button>
+                            <input type="text" name="name" value="0" readonly>
+                            <button class="minus-btn" id="minus-btn_{{ item['id'] }}_{{ item['1053'] }}"
+                                    type="button"
+                                    name="button">
+                                <img src="../../static/dd_chicken/icons/minus.svg" alt=""/>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+    </div>
+    <div>
+        <button id="cart-btn" class="fixed_button">View Cart</button>
+        <button id="order-btn" class="fixed_button">Place Order</button>
+    </div>
+
+</div>
+</body>
+<script type="text/javascript" src="../js/online_order.js"></script>
+</html>
