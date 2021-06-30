@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6786977d-e4a8-4a47-b6e2-6b63101a25fc" name="Default Changelist" comment="" />
+    <list default="true" id="6786977d-e4a8-4a47-b6e2-6b63101a25fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/html/boxmodel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,14 +101,14 @@
       <recent name="$PROJECT_DIR$/html" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.userinput.html">
+  <component name="RunManager" selected="JavaScript Debug.boxmodel.html">
     <configuration name="404.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlBeginner/404.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="form.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlBeginner/html/form.html" useBuiltInWebServerPort="true">
+    <configuration name="boxmodel.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/begineerHtmlCssWork/html/boxmodel.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlBeginner/index.html" useBuiltInWebServerPort="true">
+    <configuration name="form.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlBeginner/html/form.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlBeginner/html/index.html" useBuiltInWebServerPort="true">
@@ -116,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.boxmodel.html" />
         <item itemvalue="JavaScript Debug.userinput.html" />
         <item itemvalue="JavaScript Debug.form.html" />
         <item itemvalue="JavaScript Debug.404.html" />
         <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.index.html (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +156,7 @@
       <workItem from="1610637863813" duration="281000" />
       <workItem from="1622984941060" duration="600000" />
       <workItem from="1623854390822" duration="883000" />
-      <workItem from="1625073767768" duration="659000" />
+      <workItem from="1625073767768" duration="1541000" />
     </task>
     <servers />
   </component>
