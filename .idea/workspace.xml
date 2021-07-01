@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6786977d-e4a8-4a47-b6e2-6b63101a25fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/bg_propeeties.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/background properties.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bg_propeeties.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bg_propeeties.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +83,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -95,6 +94,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -157,7 +157,7 @@
       <workItem from="1610637863813" duration="281000" />
       <workItem from="1622984941060" duration="600000" />
       <workItem from="1623854390822" duration="883000" />
-      <workItem from="1625073767768" duration="2724000" />
+      <workItem from="1625073767768" duration="3309000" />
     </task>
     <servers />
   </component>
